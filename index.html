@@ -24,14 +24,24 @@
 		}
 		#signin-image{
 			width:30px;
-			margin: 9px 15px;
+			margin: 9px 8px;
 			float: left;
 		}
 		#signin-text{
 			font-weight: bold;
-			font-size: 110%;
+			font-size: 90%;
 			position: relative;
 			top: 14px;
+			padding-right: 22px;
+		}
+		.topbar-menu{
+			font-size: 90%;
+			font-weight: bold;
+			padding: 13px 15px 0px 10px;
+			height: 27px;
+			/*This is content box which is default box model. 	Margin, border and padding are not included while calculating width and height 
+	Width = Content size */
+
 		}
 		</style>
 	</head>
@@ -42,7 +52,9 @@
 				<img id="signin-image" src="images/signin.jpg">
 				<span id="signin-text">Sign in</span>
 			</div>
-			
+			<div class="topbar-section topbar-menu">
+				News
+			</div>
 		</div>
 	</body>
 </html>
