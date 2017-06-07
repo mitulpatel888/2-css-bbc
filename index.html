@@ -10,6 +10,7 @@
 		body{
 			padding:0px;
 			margin:0px;
+			font-family: Helvetica, freesansm sans-serif,arial; 
 		}
 		#logo{
 			margin-top:8px;
@@ -21,14 +22,25 @@
 			border-left:1px #cccccc solid;
 			height: 100%;
 		}
+		#signin-image{
+			width:30px;
+			margin: 9px 15px;
+			float: left;
+		}
+		#signin-text{
+			font-weight: bold;
+			font-size: 110%;
+			position: relative;
+			top: 14px;
+		}
 		</style>
 	</head>
 	<body>
 		<div id="topbar">
 			<img src="http://static.bbci.co.uk/frameworks/barlesque/3.21.17/orb/4/img/bbc-blocks-dark.png" width="100" height="30" alt="BBC" data-pin-nopin="true" id="logo">
 			<div id="sigin-div" class="topbar-section">
-				<img src="images/signin.png">
-				
+				<img id="signin-image" src="images/signin.jpg">
+				<span id="signin-text">Sign in</span>
 			</div>
 			
 		</div>
