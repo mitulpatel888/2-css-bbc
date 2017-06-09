@@ -39,9 +39,24 @@
 			font-weight: bold;
 			padding: 13px 15px 0px 10px;
 			height: 27px;
-			/*This is content box which is default box model. 	Margin, border and padding are not included while calculating width and height 
-	Width = Content size */
+			/*When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the full size of an element, you must also add padding, borders and margins. */
 
+		}
+		.more-menu{
+			margin-right: 20px;
+		}
+		#search-box{
+			border:none;
+			background-color:#e4e4e4;
+			height: 25px;
+			float:left;
+			margin-top:8px;
+			margin-left: 8px;
+			font-weight:bold;
+			}
+		#search-icon{
+			margin-top:8px;
+			height: 30px;
 		}
 		</style>
 	</head>
@@ -67,10 +82,13 @@
 			<div class="topbar-section topbar-menu">
 				Earth
 			</div>
-			<div class="topbar-section topbar-menu">
+			<div class="topbar-section topbar-menu more-menu">
 				More
 			</div>
-			
+			<div class="topbar-section" id="search">
+				<input id="search-box" type="text" placeholder="Search">
+				<input id="search-icon" type="image" src="images/search-icon.jpg" placeholder="Search">
+			</div>
 		</div>
 	</body>
 </html>
