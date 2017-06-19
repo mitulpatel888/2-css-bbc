@@ -110,7 +110,21 @@
 		#menu-bar-2{
 			width:1000px;
 			margin: 0 auto;
-			height: 50px;
+			height: 40px;
+		}
+		/*To style tag inside another tag, follow below as an example: Below <a>is being styled inside tag which has id =menu-bar-2*/
+		#menu-bar-2 a{
+			text-decoration:none;
+			color: white;
+			position: relative;
+			top: 12px;
+			border-right: 1px solid #bb4545;
+			font-size: 15px;
+			padding: 0 10px;
+		}
+		#menu-bar-2 a:hover{
+			text-decoration: underline;
+			-webkit-tap-highlight-color: rgba(17,103,168,0.3);
 		}
 		</style>
 	</head>
@@ -156,9 +170,22 @@
 		</div>
 		<div class="clear"></div>
 		<div id="menu-bar-2-container">
-			<div id="menu-bar-2"></div>
+			<div id="menu-bar-2">
+				<a href="" style="padding-left:0px">Home</a>
+				<a href="">Video</a>
+				<a href="">World</a>
+				<a href="">US & Canada</a>
+				<a href="">Business</a>
+				<a href="">Tech</a>
+				<a href="">Science</a>
+				<a href="">Magazine</a>
+				<a href="">Entertainment & Arts</a>
+				<a href="">Health</a>
+				<a href="" style="border:none" "margin:0px">More</a>
+				
+			</div>
 		</div>
-		
+		<div class="clear"></div>
 		
 	</body>
 </html>
