@@ -144,7 +144,7 @@
 		h3 a:hover{
 			color:#045FB4;
 		}
-		#article-summary{
+		.article-summary{
 			color:#5a5a5a;
 			width: 250px;
 			float:left;
@@ -154,16 +154,16 @@
 			text-decoration:none;
 			color:#a61b1b;
 		}
-		#article-summary a:hover{
+		.article-summary a:hover{
 			color:#08298A;
 		}
-		#article-container{
+		.article-container{
 			float:left;
 			width:640px;
 			padding-right:15px;
 			border-right: 1px solid #e4e4e4;
 		}
-		#article-hr{
+		.article-hr{
 			width: 50px;
 			border-top: 2px solid #a61b1b;
 			
@@ -204,7 +204,32 @@
 		.line{
 			width: 640px;
 			float: left;
+			margin-bottom: 15px;
 		}
+		.article-1-2{
+			width: 215px;
+			margin:0 auto;
+			padding-right:12px;
+			border-right: 1px solid #e4e4e4;
+			float: left;
+		}
+		.article-1-2-headlines{
+			font-weight: bold;
+			font-size: 18px;
+			margin-bottom:0px;
+		}
+		.article-1-2-summary{
+			color:#5a5a5a;
+			float:left;
+			font-size:14px;
+			border-right: 1px solid #e4e4e4;
+			margin: 0 auto;
+			padding-right:12px;
+			width: 215px;
+			}
+		.article-1-2-summary: hover{	
+			color:#08298A;
+			}
 		</style>
 	</head>
 	<body>
@@ -268,12 +293,12 @@
 		<div id="page-container">
 			<div id="main-article">
 				<h2>Technology</h2>
-				<div id="article-container">
+				<div class="article-container">
 					<h3><a href="">Swiss edge US out of top computer spot</a></h3>
-					<div id="article-summary">
+					<div class="article-summary">
 						<p>A hardware upgrade bumps the US to fourth place in the rankings of the world's biggest computers.</p>
 						<p><img src="images/clock.png"> 19 June 2017 | <a class="topic-link" href="">Technology</a></p>
-						<hr id="article-hr" align="left">
+						<hr class="article-hr" align="left">
 						<p><a class="article-link" href="">Where has ransomware hit hardest?</a></p>
 						<p><a class="article-link" href=""> What is ransomware- - BBC News</a></p>
 						
@@ -324,6 +349,32 @@
 			<div>
 				<hr class="line">
 			</div>	
+			<div class="article-container">
+				<div class="article-1-2">
+					<img src="https://placeimg.com/215/121/tech">
+					<p class="article-1-2-headlines">Players force rethink over GTA V ban
+					</p>
+					<div class="article-1-2-summary">
+						<p>Complaints, negative reviews, and petitions make GTA's publisher end legal action over a popular game add-on</p>
+						<p><img src="images/clock.png"> 5 hours ago | <a href class ="topic-link">Technology</a></p>
+						<hr class="article-hr" align="left">
+						<p class="article-link"> Uzbekistan bans 'destructive' video games</p>
+						<p ><a href="" class="article-link">Legal threat shuts GTA game toolkit</a></p>
+					</div>
+				</div>
+				<div class="article-1-2" style="padding-left:12px">
+					<img src="https://placeimg.com/215/121/nature">
+					<p class="article-1-2-headlines">Russia targets Telegram app after bombing
+					</p>
+					<div class="article-1-2-summary">
+						<p>A suicide bomber who killed 15 people in St Petersburg used the messaging app, officials say.</p>
+						<p><img src="images/clock.png"> 3 hours ago | <a href class ="topic-link">Europe</a></p>
+						<hr class="article-hr" align="left">
+						<p><a class="article-link" href="">How IS wages social media war</a></p>
+					</div>
+				</div>
+				
+			</div>
 		</div>
 	</body>
 </html>
